@@ -3,7 +3,7 @@ import requests
 url = "https://api.weather.gov/alerts"
 
 # so i dont get blocked by the API
-headers = {"User-Agent": "NoaaAlertFetcher/1.0 (https://github.com/myproject)"}
+headers = {"User-Agent": "NoaaAlertFetcher/1.0 (https://github.com/TukeCS/NoaaAlertFetcher)"}
 
 response = requests.get(url, headers=headers)
 
